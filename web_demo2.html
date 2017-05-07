@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Py201704081课后作业</title>
+<meta name="description" content="牛B">
+<meta name="keywords" content="CC">
+<style>
+		table{
+		border-collapse:collapse;
+		}
+		table,tr,td,th{
+		border:1px solid black;
+		}
+		th{
+		width:150px;
+		height:60px;
+		position: relative;
+		}
+		th[class=first]:before{
+		content: "";
+		position: absolute;
+		width: 1px;
+		height:165px;
+		top:0;
+		left:0;
+		background-color: black;
+		display: block;
+		transform: rotate(-68deg);
+		transform-origin: top;
+		}
+		td{
+		width:150px;
+		height:60px;
+		position: relative;
+		text-align: center;
+		}
+	tbody tr:hover{
+		background: skyblue;
+		color: red;
+		} 
+	tbody tr td:hover{
+		background: green;
+		color: white;
+		}
+	tfoot tr td:hover{
+
+		background: green;
+		color: white;
+		}
+</style>
+
+</head>
+<body style="width:1000px; margin:0 auto;background-color: #cacaca">
+	<h1 align="center" id="sy">Python201704081的课后作业</h1>
+	<h3>1. 使用表格在顶部例出来下面的画(画名/时间/作者)</h3>
+	<div align="center" >
+		<table>
+			<caption><b>萌宠画册简介</b></caption>
+			<thead>
+				<tr>
+					<th>画名</th>
+					<th>时间</th>
+					<th>作者</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>萌猫</td>
+					<td>2017年4月3日</td>
+					<td><a href="img/timg7.jpg" onclick="window.open("img/timg1.jpg","width=800","height=800","top=0","left=400")">cc是谁</a></td>
+				</tr>
+				<tr>
+					<td>萌狗</td>
+					<td>2017年5月3日</td>
+					<td><a href="img/timg7.jpg" onclick="window.open("img/timg1.jpg","width=800","height=800","top=0","left=400")">cc是谁</a></td>
+				</tr>
+			</tbody>
+			
+		</table>
+	</div>
+	<h3>2. 表格下方插入画(画的介绍信息)</h3>
+		<div align="center" >
+			<table>
+				<caption><b>萌宠画册详情</b></caption>
+				<thead>
+					<tr>
+						<th><img src="img/timg1.jpg" alt="萌猫" title="女人的伴侣" width="200px" height="200px"></th>
+						<th><img src="img/timg2.jpg" alt="萌狗" title="男人的伴侣" width="200px" height="200px"></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>萌猫是女孩的好情人，是吗？</td>
+						<td>萌狗是男孩的好兄弟，是吧！</td>
+					</tr>
+				</tbody>
+				
+			</table>
+		</div>
+
+<h3>3. 题材以画为中心、注意排版</h3>
+	<div align="center" >
+		<table>
+			<caption><b>萌宠画册详情</b></caption>
+			<tbody>
+				<tr>
+					<td colspan="2"><a href="img/timg1.jpg" onclick="window.open("img/timg1.jpg","width=800","height=800","top=0","left=400")"><img src="img/timg1.jpg" alt="萌猫" title="女人的伴侣" width="400px" height="200px">点击看大图</a></td>
+					<td><a href="img/timg1.jpg" onclick="window.open("img/timg2.jpg","width=800","height=800","top=0","left=400")"><img src="img/timg2.jpg" alt="萌狗" title="男人的伴侣" width="200px" height="200px">点击看大图</a></td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr>
+					<td rowspan="2"><a href="img/timg3.jpg" onclick="window.open("img/timg1.jpg","width=800","height=800","top=0","left=400")"><img src="img/timg3.jpg" alt="萌猫" title="女人的伴侣" width="200px" height="200px">点击看大图</a></td>
+					<td><a href="img/timg3.GIF" onclick="window.open("img/timg1.jpg","width=800","height=800","top=0","left=400")"><img src="img/timg3.GIF" alt="萌猫" title="女人的伴侣" width="200px" height="200px"></a></td>
+					<td><a href="img/timg4.jpg" onclick="window.open("img/timg1.jpg","width=800","height=800","top=0","left=400")"><img src="img/timg4.jpg" alt="萌猫" title="女人的伴侣" width="200px" height="200px">点击看大图</a></td>
+				</tr>
+			</tbody>
+			<tbody>
+				<tr>
+					<td><a href="img/timg5.jpg" onclick="window.open("img/timg1.jpg","width=800","height=800","top=0","left=400")"><img src="img/timg5.jpg" alt="萌猫" title="女人的伴侣" width="200px" height="200px">点击看大图</a></td>
+					<td colspan="2"><a href="img/timg6.jpg" onclick="window.open("img/timg1.jpg","width=800","height=800","top=0","left=400")"><img src="img/timg6.jpg" alt="萌猫" title="女人的伴侣" width="400px" height="200px">点击看大图</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+<h3>4. 无聊的代码</h3>
+
+	<div align="center">
+		<table>
+			<caption><b>课程计划</b></caption>
+			<thead>
+				<tr>
+					<th class="first">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;课程安排<br>时间&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+					<th>C语言</th>
+					<th>python</th>
+					<th>linux</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>第一个月</td>
+					<td>指针</td>
+					<td>变量</td>
+					<td>文件操作</td>
+				</tr>
+				<tr>
+					<td>第二个月</td>
+					<td>宏</td>
+					<td>爬虫</td>
+					<td>shell的编写</td>
+				</tr>
+			</tbody>
+				
+		</table>
+	</div>
+<div align="center">&copy;cc 转载请注明来源</div>
+<a href="#sy" >跳到首页</a>
+</body>
+</html>
