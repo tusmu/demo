@@ -1,0 +1,60 @@
+<!DOCTYPE html>  <!-- 给浏览器解析 -->
+<html>
+	<head>
+	<meta charset="utf-8" keywords="真的是好作业" description="cc的第一次课后作业，于20170429,by 201704081" />
+	<title>Py201704081的客户作业</title>
+	
+	<style>
+		div{
+			width:900px;
+			margin:0 auto;
+			background-color:#DAEDEB;
+			text-align:center;
+		}
+		p{color:#58B569; float:left;}
+		.txt{width:900px;}
+	</style>
+
+	</head>
+	
+	<body >
+	<div align="center">
+	<h1 align="center">野火烧不尽</h1>
+	<h2 align="center">春风吹又生</h2>
+		<p  class="txt" >
+			&nbsp;&nbsp;&nbsp;&nbsp;春天来了，受益的当然是人与自然。有诗云：<b>“野火烧不尽，春风吹又生。”</b>显而易见春天拥有着超级活力,只需东风轻轻吹拂，雨水细细播洒，葱绿、繁茂，慢慢重生于世间的每一个角落。芬芳、妩媚也从此伊始，这些给春天加分的动人美色，使得人们、困盹了一个季节的心情霎时变得豁然。
+		</p>
+		<p  class="txt">
+			&nbsp;&nbsp;&nbsp;&nbsp;虽然北方的春天来得比较晚，又或者象人们口中常说的<u><b><i>“春脖子短”</i></b></u>，但这一点也不影响我喜迎春天的美好心情。既喜欢也乐见，即将浮出的、寄居在岁月里的，清秀、妖娆的丰盈色彩。
+		</p>
+		<p class="txt">
+			&nbsp;&nbsp;&nbsp;&nbsp;春天是令人着迷的，“他”像是有个变魔法的口袋，今儿一阵香风拂面，明日便有一番细雨连绵。过不了多久，人们就会迎来一场春暖花开。一些喜欢采风的行者，说走就走的背包客，去南方拍摄一组绿水行舟，到北方画一画出岫青山。或者干脆让自己开心的笑脸，在阳光下与花儿们一同灿烂。
+		</p>
+	　	<p class="txt">
+			&nbsp;&nbsp;&nbsp;&nbsp;你说，在这行色匆匆的枯廋流年里，新生的风物谁会不喜欢？谁人不想及时欣赏这些撩人的画面？又有谁不爱恋这么优美迷人的春颜？都说这世间就没有不衰的容颜，一个人的年龄定是只增不减。无论是外貌还是思维，都会随着环境和时间而做些改变。或许轮回的时光隧道里，不老的只有春颜，正是“她”这种积极、逢发向上的信念，才令人感觉负责新生的使命，是多么隆重与庄严。故我现在特想和春天一同，将自己沧桑、晦暗的容颜暗中偷换。<s>更想把春天新发的秀色一并植入心园，让自己也能保存此生心里最年轻的一面……</s>
+		</p>
+
+	<h6>
+		什么你怀疑这些不是我写的，好吧那你一定要<a href="https://www.baidu.com" target="_blank">百度一下了</a>
+	</h6>
+		
+
+		
+
+		<div align="center">
+			<marquee  style="border:solid 1px #320DF0"  width="500" height="400" behavior="alternate" direction="down" >
+				<marquee behavior="alternate" direction="right">
+					<font color="red">
+						cc Py201704081的客户作业<br /><a href="#">回到顶部</a>
+					</font>
+				</marquee>
+			</marquee>
+		</div>
+
+		<hr  />
+		<div align="center">&copy;CC &amp; chenchao</div>
+
+
+	</div>
+	</body>
+</html>
